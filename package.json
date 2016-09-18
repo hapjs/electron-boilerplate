@@ -1,0 +1,29 @@
+{
+  "name": "electron-boilerplate",
+  "version": "1.0.0",
+  "description": "Electron示例",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-win": "electron-packager . tereis --platform=win32 --arch=x64 --version=1.4.0 --overwrite",
+    "build-mac": "electron-packager . tereis --platform=darwin --arch=x64 --version=1.4.0 --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hapjs/electron-boilerplate.git"
+  },
+  "keywords": [
+    "Electron",
+    "boilerplate"
+  ],
+  "author": "hapjs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hapjs/electron-boilerplate/issues"
+  },
+  "homepage": "https://github.com/hapjs/electron-boilerplate#readme",
+  "devDependencies": {
+    "electron": "^1.4.0",
+    "electron-packager": "^8.0.0"  
+  }
+}
