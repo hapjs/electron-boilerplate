@@ -4,9 +4,10 @@
   "description": "Electron示例",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "build-win": "electron-packager . tereis --platform=win32 --arch=x64 --version=1.4.0 --overwrite",
-    "build-mac": "electron-packager . tereis --platform=darwin --arch=x64 --version=1.4.0 --overwrite"
+    "start": "electron . & webpack --watch",
+    "webpack": "webpack",
+    "build-win": "webpack && electron-packager . tereis --platform=win32 --arch=x64 --version=1.4.0 --overwrite",
+    "build-mac": "webpack && electron-packager . tereis --platform=darwin --arch=x64 --version=1.4.0 --overwrite"
   },
   "repository": {
     "type": "git",
