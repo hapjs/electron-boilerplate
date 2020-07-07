@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/hapjs/electron-boilerplate#readme",
   "devDependencies": {
-    "electron": "^1.4.0",
+    "electron": "^9.1.0",
     "electron-packager": "^8.0.0",
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
